@@ -10,7 +10,7 @@ logging.basicConfig(
 
 def run(num=0):
     logging.info('Process %s start' % num)
-    sleep_time = random() * 10
+    sleep_time = random() * 1000
     time.sleep(sleep_time)
     logging.info('Process %s end, and sleep %s s.' % (num, sleep_time))
 
